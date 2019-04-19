@@ -1,0 +1,37 @@
+NOTES REGARDING SOFTWARE
+
+NAME        CorrDist
+
+VERSION     0.9
+
+COPYRIGHT   Copyright © 2019 Lars Sommer Jermiin. All rights reserved.
+
+WARNING     The copyright holder takes no legal responsibility for the correctness of 
+            results obtained using this program.
+
+AUTHOR      Lars Sommer Jermiin
+
+ADDRESS     Australian National University
+            University College Dublin
+            
+CONTACT     lars.jermiin@anu.edu.au
+
+DATE        19 April 2019
+
+PURPOSE     CorrDist computes the corrected distance between pairs of sequences of 
+            nucleotides, 10-state genotypes, 14-state genotypes and amino acids.
+ 
+FORMAT      Sequences must be stored in the FASTA format.
+ 
+DATA TYPES  Sequences of nucleotides, 10-state genotypes, 14-state genotypes and 
+            amino acids.
+            
+MODELS      F81, LogDet
+
+COMPILE     g++ corrdist.cpp -o corrdist -O2 -Wall -lm
+
+HELP        Follow simple user-interface
+
+STATUS      Software incomplete
+
+NOTE        Contact author for updates, etc
