@@ -16,7 +16,7 @@ ADDRESS     Australian National University
             
 CONTACT     lars.jermiin@anu.edu.au
 
-DATE        19 April 2019
+DATE        20 October 2019
 
 PURPOSE     CorrDist computes the corrected distance between pairs of sequences of 
             nucleotides, 10-state genotypes, 14-state genotypes and amino acids.
@@ -28,10 +28,10 @@ DATA TYPES  Sequences of nucleotides, 10-state genotypes, 14-state genotypes and
             
 MODELS      F81, LogDet
 
-COMPILE     g++ corrdist.cpp -o corrdist -O2 -Wall -lm
+COMPILE     g++ corrdist.cpp -o corrdist -O3 -Wall -lm
 
 HELP        Follow simple user-interface
 
-STATUS      Software incomplete
+STATUS      Software complete
 
 NOTE        Contact author for updates, etc
